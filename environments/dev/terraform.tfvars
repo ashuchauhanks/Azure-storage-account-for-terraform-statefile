@@ -1,6 +1,6 @@
 resource_groups = {
     rg1 = {
-        name = "rg-statetf-ashu"
+        name = "rg-statebk"
         location = "eastus"
         }
 
@@ -9,8 +9,8 @@ resource_groups = {
 
 storage_accounts = {
     stg1 = {
-        name = "stateashudev"
-        resource_group_name = "rg-statetf-ashu"
+        name = "stg-statebk"
+        resource_group_name = "rg-statebk"
         location = "eastus"
         account_tier = "Standard"
         account_replication_type = "LRS"
