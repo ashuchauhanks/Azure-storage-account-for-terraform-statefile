@@ -7,8 +7,8 @@ terraform {
     }
     }
 #   backend "azurerm" {
-#     resource_group_name  = "rg-terraform-ashu"
-#     storage_account_name = "state-ashu-dev"
+#     resource_group_name  = "rg-statebk"
+#     storage_account_name = "stg-statebk"
 #     container_name       = "tfstate"
 #     key                  = "dev.tfstate"
 #   }
