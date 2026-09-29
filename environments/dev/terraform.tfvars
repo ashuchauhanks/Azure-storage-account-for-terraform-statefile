@@ -1,6 +1,6 @@
 resource_groups = {
     rg1 = {
-        name = "rg-terraform-ashu"
+        name = "rg-statetf-ashu"
         location = "eastus"
         }
 
@@ -10,7 +10,7 @@ resource_groups = {
 storage_accounts = {
     stg1 = {
         name = "stateashudev"
-        resource_group_name = "rg-terraform-ashu"
+        resource_group_name = "rg-statetf-ashu"
         location = "eastus"
         account_tier = "Standard"
         account_replication_type = "LRS"
