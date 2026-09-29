@@ -9,7 +9,7 @@ resource_groups = {
 
 storage_accounts = {
     stg1 = {
-        name = "stg-statebk"
+        name = "ashustgstatebk"
         resource_group_name = "rg-statebk"
         location = "eastus"
         account_tier = "Standard"
