@@ -5,6 +5,7 @@ module "azure_rg" {
 }
 
 module "az_storage_account" {
+    depends_on = [module.azure_rg]
     source = "../../modules/azure_storage_account"
     storage_accounts = var.storage_accounts
     storage_containers = var.storage_containers
